@@ -1,0 +1,30 @@
+Pipeline complete. Here's the JSON summary:
+
+```json
+{
+  "status": "completed",
+  "id": "13",
+  "report_num": "062",
+  "company": "Sumsub",
+  "role": "Junior+ Frontend Developer",
+  "score": 2.1,
+  "legitimacy": "High Confidence",
+  "pdf": "output/cv-andrew-saganda-sumsub-2026-05-12.pdf",
+  "report": "reports/062-sumsub-2026-05-12.md",
+  "error": null
+}
+```
+
+---
+
+**Verdict: SKIP (2.1/5)**
+
+Three compounding problems make this a non-starter:
+
+1. **Seniority mismatch** — "Junior+" signals 1-2 years expected; Andrew has 8+. Either gets screened out or offered $60k-$90k, both bad outcomes.
+
+2. **Core stack gaps** — Next.js, GSAP, and Framer Motion are the three headline requirements of the role. None are in the CV. React/TS/CSS are there but that's not enough when the role is specifically animation-heavy marketing web with Next.js 15.
+
+3. **Comp is almost certainly below minimum** — No salary disclosed, Cyprus-based company, Junior+ level. Market comps for this role internationally are $50k-$90k. Andrew's minimum is $115k.
+
+The company itself is legitimate (real KYC fintech, 4.1/5 Glassdoor, no layoff signals), but the role-candidate fit just isn't there.

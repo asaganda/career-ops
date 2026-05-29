@@ -1,0 +1,41 @@
+All pipeline steps complete. Printing the final JSON summary:
+
+```json
+{
+  "status": "completed",
+  "id": "2",
+  "report_num": "034",
+  "company": "Vercel",
+  "role": "Software Engineer, Agent",
+  "score": 2.0,
+  "legitimacy": "High Confidence",
+  "pdf": "output/cv-andrew-saganda-vercel-2026-05-01.pdf",
+  "report": "reports/034-vercel-2026-05-01.md",
+  "error": null
+}
+```
+
+---
+
+**Pipeline complete. Here's the summary:**
+
+**Vercel — Software Engineer, Agent** | Score: **2.0/5** | **Recommendation: SKIP**
+
+**Arquetipo:** Agentic Workflows / Automation + AI Platform / LLMOps hybrid
+
+**Why skip:** This is a Staff IC+ role ($232k–$348k) building autonomous agent infrastructure — multi-step orchestration, sandboxed execution, RAG pipelines, observability. Andrew's TypeScript and product sensibility are real, but the core requirement is someone who has *built* agentic systems in production, not someone who has used AI tools to build products. That gap is structural, not a framing problem. SF hybrid also conflicts with the NJ location.
+
+**What IS a fit at Vercel:** The scan history shows **Software Engineer, Growth** and **Software Engineer, Dashboard** openings — those map directly to Andrew's A/B testing, conversion optimization, and frontend depth. Those are worth applying to.
+
+**Deliverables created:**
+- `reports/034-vercel-2026-05-01.md` — Full A–G evaluation
+- `output/cv-andrew-saganda-vercel-2026-05-01.pdf` — 2 pages, letter format
+- `batch/tracker-additions/2.tsv` — ready for `node merge-tracker.mjs`
+
+---
+
+> **Update note:** career-ops update available (v1.3.0 → v1.6.0). Your data (CV, profile, tracker, reports) will NOT be touched. Want me to update?
+
+Sources:
+- [Levels.fyi — Vercel Software Engineer Salaries](https://www.levels.fyi/companies/vercel/salaries/software-engineer)
+- [Glassdoor — Vercel Salaries 2026](https://www.glassdoor.com/Salary/Vercel-Salaries-E6510369.htm)

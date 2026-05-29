@@ -1,0 +1,49 @@
+Pipeline completo. Aquí está el resumen JSON de salida:
+
+```json
+{
+  "status": "completed",
+  "id": "5",
+  "report_num": "052",
+  "company": "Brex",
+  "role": "Senior Software Engineer, Frontend",
+  "score": 4.0,
+  "legitimacy": "Proceed with Caution",
+  "pdf": "output/cv-andrew-saganda-brex-2026-05-06.pdf",
+  "report": "reports/052-brex-2026-05-06.md",
+  "error": null
+}
+```
+
+---
+
+## Resumen del pipeline
+
+**Oferta:** Senior Software Engineer, Frontend — Brex (NYC Hybrid)
+**Score: 4.0/5 — APPLY**
+
+**Lo que Brex está comprando:** Un frontend engineer que diseñe experimentos, sea dueño de features de punta a punta, y trabaje sin hand-holding con producto y diseño. El JD dice literalmente "design and implement experiments to improve customer experiences" — y tú tienes eso con métricas reales (20% CVR, 124% engagement).
+
+**Match clave:**
+- React + TypeScript + ES6+ = check directo
+- 9+ años de experiencia (piden 7+)
+- Optimizely A/B testing = match exacto al requisito de "experiments"
+- React Native en CanIParkHere cubre el preferred
+- $2.6M/mes en transacciones en FullBeauty = el puente más cercano a fintech
+
+**Señales de caution:**
+- Dos rondas de layoffs en <2 años (20% en marzo 2025). Empresa real, posting real — pero pregunta en entrevista sobre estabilidad del equipo y roadmap.
+- 3 días/semana en oficina NYC (Mon/Wed/Thu) — justo en el borde de tu "2-3 días aceptables."
+
+**Comp:** $192K–$240K base. Median total comp Senior en Brex según Levels.fyi es ~$393K. Esta oferta empieza $30K por encima de tu techo declarado. Vale la pena el esfuerzo incluso si el match es 70%.
+
+**Próximos pasos:**
+1. Agregar "Webpack" y "ES6+" explícitamente a tu CV antes de aplicar
+2. Reframe el bullet de SalonCentric con "designed and owned experiments" (lenguaje exacto del JD)
+3. Cover note corta: abre con las métricas de A/B testing, cierra con TypescriptQuest como prueba de ownership end-to-end
+4. Correr `node merge-tracker.mjs` para hacer merge de este batch al tracker
+
+Sources:
+- [Brex Senior Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/brex/salaries/software-engineer/levels/senior-software-engineer)
+- [Brex Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/brex/salaries/software-engineer)
+- [Brex cuts 20% of staff | TechCrunch](https://techcrunch.com/2024/01/23/brex-layoffs-fintech/)

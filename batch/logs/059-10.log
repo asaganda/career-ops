@@ -1,0 +1,35 @@
+All steps complete. Here's the final JSON summary:
+
+```json
+{
+  "status": "completed",
+  "id": "10",
+  "report_num": "059",
+  "company": "Sedgwick",
+  "role": "Lead Web Front-end Engineer",
+  "score": 3.0,
+  "legitimacy": "Proceed with Caution",
+  "pdf": "output/cv-andrew-saganda-sedgwick-2026-05-12.pdf",
+  "report": "reports/059-sedgwick-2026-05-12.md",
+  "error": null
+}
+```
+
+---
+
+## Pipeline Summary — Offer #059 Sedgwick
+
+**Score: 3.0/5 — Proceed with Caution**
+
+**What I found:** Sedgwick's Workday page blocks all scrapers in batch mode, so the JD was reconstructed from: job title, sibling role R73208 (Lead Web Platform Engineer — platform architecture, plugin governance, SEO/AIO), confirmed tech stack (Craft CMS, TypeScript, CSS, GTM, Google Analytics), and enterprise web team hiring cluster signals (also hiring a Lead Designer).
+
+**Archetype:** Frontend Engineer — Lead / Corporate Web. This is NOT an AI or Growth role. It's about building and maintaining sedgwick.com for a 30,000-person insurance company.
+
+**Why 3.0:** Andrew's React/TS/HTML/CSS/accessibility skills match well, and 8+ years gives him the seniority for "Lead." But three things pull the score down: (1) no Craft CMS experience — probable day-to-day requirement; (2) comp likely $100k-$140k, no range disclosed, below market for a true "Lead" title; (3) insurance domain and corporate web work doesn't align with Andrew's growth/e-commerce/AI strengths.
+
+**Verdict:** Don't invest heavily without confirming salary in a first screening call. If base ≥ $120k, the role is worth applying given Andrew's active search. If below $115k, skip — much better-aligned roles already in the pipeline (Buffer 4.8/5, Descript 4.2/5, Postscript 4.3/5).
+
+Sources:
+- [Sedgwick Salaries | Levels.fyi](https://www.levels.fyi/companies/sedgwick/salaries)
+- [Lead Front End Engineer Salary | Glassdoor](https://www.glassdoor.com/Salaries/lead-front-end-engineer-salary-SRCH_KO0,23.htm)
+- [Lead Web Platform Engineer (sibling R73208) | Sedgwick Workday](https://sedgwick.wd1.myworkdayjobs.com/Sedgwick/job/Telecommuter-TN/Lead-Web-Platform-Engineer_R73208)

@@ -1,0 +1,39 @@
+All files written. Final JSON summary:
+
+```json
+{
+  "status": "completed",
+  "id": "11",
+  "report_num": "060",
+  "company": "Mendix",
+  "role": "Senior Mendix Front-End Consultant",
+  "score": 2.5,
+  "legitimacy": "Proceed with Caution",
+  "pdf": "output/cv-andrew-saganda-mendix-2026-05-12.pdf",
+  "report": "reports/060-mendix-senior-frontend-consultant-2026-05-12.md",
+  "error": null
+}
+```
+
+---
+
+**Offer #11 — Mendix | Senior Mendix Front-End Consultant — complete.**
+
+**Score: 2.5/5 — SKIP**
+
+The core problem: this isn't a React role that uses Mendix on the side. It's a **Mendix consulting role** — the entire job is advising enterprise customers on how to build in the Mendix low-code platform. Andrew's React/CSS/WCAG/React Native skills are genuinely strong and map well to the technical requirements, but they're table stakes, not differentiators. Without Mendix platform experience, he can't function as a Mendix consultant regardless of frontend depth.
+
+Secondary issues: consulting delivery model (not product engineering), no Figma in CV, Siemens subsidiary culture tends toward slower-paced enterprise environments.
+
+**If interested in the low-code/consulting space:** spend 4–6 weeks on Mendix's free learning path → earn the Rapid Developer cert → apply to Mendix SI partner companies first, then Mendix Expert Services directly.
+
+**Artifacts:**
+- Report: `reports/060-mendix-senior-frontend-consultant-2026-05-12.md`
+- PDF: `output/cv-andrew-saganda-mendix-2026-05-12.pdf` (2 pages, letter)
+- Tracker: `batch/tracker-additions/11.tsv` (num=58, SKIP)
+
+Sources:
+- [Mendix Senior Front-End Consultant (Lever)](https://jobs.lever.co/mendix/363ea555-7964-42bb-8464-0dd9b4efb3a6)
+- [Mendix Salaries — Glassdoor](https://www.glassdoor.com/Salary/Mendix-Salaries-E443864.htm)
+- [Mendix Software Engineer Salary — Levels.fyi](https://www.levels.fyi/companies/mendix/salaries/software-engineer)
+- [Mendix Expert Consultant Salary — Glassdoor](https://www.glassdoor.com/Salary/Mendix-Expert-Consultant-Salaries-E443864_D_KO7,24.htm)

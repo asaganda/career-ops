@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrew Saganda -- CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  .header { margin-bottom: 20px; }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  .section { margin-bottom: 18px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+
+  a { white-space: nowrap; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 14px; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+
+  .job ul { padding-left: 18px; margin-top: 6px; }
+
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 12px; }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+
+  .project-tech { font-size: 9.5px; color: #888; margin-top: 3px; }
+
+  .edu-item { margin-bottom: 8px; }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+
+  .cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+
+  .cert-title { font-size: 10.5px; font-weight: 500; color: #333; }
+  .cert-org { color: hsl(270, 70%, 45%); }
+  .cert-year { font-size: 10px; color: #777; white-space: nowrap; }
+
+  .skills-block { margin-bottom: 5px; font-size: 10.5px; color: #444; line-height: 1.6; }
+  .skills-block .skill-category { font-weight: 600; color: #333; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 0; }
+  }
+
+  .avoid-break,
+  .job,
+  .project,
+  .edu-item,
+  .cert-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Andrew Saganda</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>asaganda@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://www.linkedin.com/in/asaganda/">linkedin.com/in/asaganda</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/asaganda">github.com/asaganda</a>
+      <span class="separator">|</span>
+      <a href="https://www.asaganda.com">asaganda.com</a>
+      <span class="separator">|</span>
+      <span>Greater New York Area</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      AI-native builder with 9+ years of engineering experience, specializing in shipping functional apps fast using AI coding agents. Built and launched TypescriptQuest (<a href="https://typescriptquest.com">typescriptquest.com</a>) -- a production SaaS with React, Node.js, PostgreSQL, Stripe, and OAuth -- using Claude Code as the primary build agent, solo from concept to production. Also shipped Conntext (Chrome Web Store) and CanIParkHere (GPT-4.1 vision API workflow) the same way. At SalonCentric (L'Oreal), translated ambiguous cross-functional problems into working technical solutions -- taking issues from business diagnosis to shipped fix without a PM layer. Comfortable at startup speed with minimal direction.
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Skills</div>
+    <div class="skills-block">
+      <span class="skill-category">AI Tools:</span> Claude Code, Codex, OpenAI API (GPT-4.1), Prompt Engineering, LLM Workflow Design
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Technical:</span> React, TypeScript, Node.js, JavaScript, Python, PostgreSQL, SQL, REST APIs, HTML, CSS, Tailwind, Express, MongoDB, Django
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Platform:</span> DigitalOcean, Netlify, Git, Optimizely, Salesforce Commerce Cloud, Chrome Extension APIs, Supabase
+    </div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section avoid-break">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">AI-Assisted Coding (Claude Code / Codex)</span>
+      <span class="competency-tag">Prompt Engineering</span>
+      <span class="competency-tag">Rapid Prototyping</span>
+      <span class="competency-tag">AI-Powered Workflow Design</span>
+      <span class="competency-tag">Full-Stack Development</span>
+      <span class="competency-tag">Cross-Functional Problem Solving</span>
+      <span class="competency-tag">End-to-End Product Ownership</span>
+      <span class="competency-tag">Startup-Speed Execution</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">SalonCentric, a L'Oreal subsidiary</span>
+        <span class="job-period">April 2023 – April 2025</span>
+      </div>
+      <div class="job-role">Front End Engineer / Technical Support Engineer -- Contract</div>
+      <ul>
+        <li>Increased conversion rates by an average of <strong>20%</strong> (2023) and user engagement by <strong>124%</strong> (2024) through A/B testing web and mobile UI/UX experiences using Optimizely, JavaScript, and CSS.</li>
+        <li>Owned technical onboarding for 9+ third-party sellers (Shopify, Magento, custom APIs), streamlining marketplace integrations with clear documentation and best practices. Contributed to a <strong>4% increase in total sales volume</strong> in 2023.</li>
+        <li>Owned all technical support for custom API integrations, contributing to a <strong>1.25% increase in total sales volume</strong> in 2024. Served as main contact for marketplace business issues during senior integration engineer's paternity leave.</li>
+        <li>Translated ambiguous cross-functional problems between marketplace operations and development partners into scalable technical solutions -- owning requirements, implementation, and resolution end-to-end.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">General Assembly</span>
+        <span class="job-period">Oct 2022 – Jan 2023</span>
+      </div>
+      <div class="job-role">Software Engineering Fellow</div>
+      <ul>
+        <li>Led development of 4 full-stack web applications independently and in teams using React, JavaScript, Tailwind, Node, Express, MongoDB, Django, Python, and PostgreSQL.</li>
+        <li>Rapidly learned modern technologies to deliver applications that met milestones under tight timelines.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">FullBeauty Brands</span>
+        <span class="job-period">May 2018 – Jan 2022</span>
+      </div>
+      <div class="job-role">Front End Engineer</div>
+      <ul>
+        <li>Achieved average monthly transactions of <strong>$2.6M</strong> throughout 2021 and a monthly average of <strong>939K unique page views</strong> by collaborating with cross-functional teams to build compelling user interfaces on Salesforce Commerce Cloud.</li>
+        <li>Spearheaded efforts to ensure brand sites complied with WCAG ADA accessibility standards, improving from Level A to Level AA across all properties.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Concentric Health Experience, Real Chemistry, Hayward Industries, TheBloc, TuneCore, Wooter</span>
+        <span class="job-period">Nov 2015 – May 2018</span>
+      </div>
+      <div class="job-role">Front End Web Developer -- Contract &amp; Freelance</div>
+      <ul>
+        <li>Delivered JavaScript/CSS animations, dynamic interfaces, and optimized microsites across 6 agency and startup clients simultaneously -- context-switching and shipping fast with minimal direction.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Featured Projects</div>
+
+    <div class="project">
+      <span class="project-title"><a href="https://typescriptquest.com">TypescriptQuest</a></span>
+      <span class="project-badge">Claude Code</span>
+      <div class="project-desc">
+        Built a gamified full-stack platform for learning TypeScript with interactive browser-based coding challenges, XP progression, and badge achievements. Used Claude Code as the primary AI coding agent to prompt-engineer and ship a production-ready app end-to-end -- React UI, Node/Express API, serverless PostgreSQL, OAuth, and Stripe payments. Concept to live paying users, solo.
+      </div>
+      <div class="project-tech">React | TypeScript | Node.js | Express | PostgreSQL | Drizzle ORM | Tailwind | shadcn/ui | Stripe | OAuth | DigitalOcean | Netlify</div>
+    </div>
+
+    <div class="project">
+      <span class="project-title"><a href="https://chromewebstore.google.com/detail/conntext/hehdiomokbcellkegggmdoghmmjdbhjl">Conntext</a></span>
+      <span class="project-badge">Claude Code</span>
+      <div class="project-desc">
+        Built and published a Chrome extension that adds a private notes panel to any LinkedIn profile. Led product vision end-to-end and used Claude Code as the AI coding agent to build and ship the full codebase. Live on the Chrome Web Store with active users.
+      </div>
+      <div class="project-tech">React | TypeScript | Supabase | Chrome Extension APIs | Claude Code</div>
+    </div>
+
+    <div class="project">
+      <span class="project-title"><a href="https://github.com/asaganda/caniparkhere">CanIParkHere</a></span>
+      <span class="project-badge">GPT-4.1 Vision</span>
+      <div class="project-desc">
+        Built a mobile app MVP to help NYC drivers avoid parking tickets. Used Codex to build an AI-powered workflow that analyzes parking sign images via the GPT-4.1 vision API -- translating a photo into a real-time parking eligibility determination. Rapid prototype from problem identification to working demo.
+      </div>
+      <div class="project-tech">Expo | React Native | TypeScript | OpenAI GPT-4.1 API | Codex</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">Software Engineering Immersive <span class="edu-org">-- General Assembly</span></span>
+        <span class="edu-year">2023</span>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.S. Environmental Science <span class="edu-org">-- Rutgers University</span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section avoid-break">
+    <div class="section-title">Certifications</div>
+    <div class="cert-item">
+      <span class="cert-title"><a href="https://courses.edx.org/certificates/9abf2d8d9f5742e18047cd03bfcfcffc">Introduction to Web Accessibility</a> <span class="cert-org">-- edX</span></span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

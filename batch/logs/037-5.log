@@ -1,0 +1,35 @@
+Tracker line written. Pipeline complete — outputting final JSON:
+
+```json
+{
+  "status": "completed",
+  "id": "5",
+  "report_num": "037",
+  "company": "Vercel",
+  "role": "Software Engineer, CDN",
+  "score": 2.0,
+  "legitimacy": "High Confidence",
+  "pdf": null,
+  "report": "reports/037-vercel-cdn-2026-05-01.md",
+  "error": null
+}
+```
+
+---
+
+**Vercel — Software Engineer, CDN | Score: 2.0/5 | SKIP**
+
+This is a Golang backend infrastructure role on Vercel's Edge/CDN team — routing petabytes of traffic, cloud networking, systems engineering. Andrew is a frontend engineer. There are 4 hard blockers with no mitigation path:
+
+- No Golang (primary language for the role)
+- No CDN/networking experience
+- No cloud architecture (AWS/GCP)
+- No systems-level programming
+
+The only positives: location (NYC hybrid ✓), salary is exceptional ($196k–$294k, 5/5), and Vercel is actively hiring with no red flags. But comp doesn't matter when the stack is completely wrong.
+
+**The right Vercel role is already in the tracker: [003 — Software Engineer, Growth](reports/003-vercel-growth-2026-04-29.md) (4.2/5)** — that's where the A/B testing and CVR lift experience actually lands.
+
+Sources:
+- [Vercel Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/vercel/salaries/software-engineer)
+- [Vercel Salaries | Glassdoor](https://www.glassdoor.com/Salary/Vercel-Salaries-E6510369.htm)

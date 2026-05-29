@@ -1,0 +1,41 @@
+Pipeline completo. Output JSON:
+
+```json
+{
+  "status": "completed",
+  "id": "7",
+  "report_num": "054",
+  "company": "Brex",
+  "role": "Senior Software Engineer, Full Stack (Task Workflows Platform)",
+  "score": 2.5,
+  "legitimacy": "High Confidence",
+  "pdf": "output/cv-andrew-saganda-brex-fullstack-2026-05-06.pdf",
+  "report": "reports/054-brex-fullstack-taskworkflows-2026-05-06.md",
+  "error": null
+}
+```
+
+---
+
+**Resumen del pipeline:**
+
+- **Arquetipo:** Full Stack Platform Engineer (closest AI archetype: Agentic Workflows / Automation)
+- **Score: 2.5/5 — SKIP**
+- **Legitimidad:** High Confidence (posting activo, JD específico, salary range publicado)
+
+**Gaps críticos:**
+- Java / Kotlin → hard blocker de screening (ni siquiera adyacente en el CV)
+- Distributed systems / high-availability infrastructure → no hay evidencia en ningún rol de Andrew
+- Backend-first en un equipo de plataforma de fintech → perfil de Andrew es frontend-first
+
+**Lo que sí matchea:** React/TypeScript, A/B testing (Optimizely), end-to-end ownership (TypescriptQuest), API integration (SalonCentric), AI developer tools (bonus). Suficiente para una primera pantalla si fuera un rol frontend — no para un Senior Full Stack Platform Engineer.
+
+**Comp excepcional** ($192k–$240k base, ~$392k total con equity/bonus) pero irrelevante si no se pasa el filtro técnico backend. El **Brex Frontend (report 052, 4.0/5)** es la apuesta correcta en Brex.
+
+**Update disponible:** career-ops v1.3.0 → v1.7.0 está disponible. Tus datos (CV, perfil, tracker, reports) no se tocarán. ¿Quieres que haga el update ahora?
+
+Sources:
+- [Brex Senior Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/brex/salaries/software-engineer/levels/senior-software-engineer)
+- [Brex Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/brex/salaries/software-engineer)
+- [Brex SF Bay Area Salaries | Levels.fyi](https://www.levels.fyi/companies/brex/salaries/software-engineer/locations/san-francisco-bay-area)
+- [How Much Does Brex Pay in 2026? | Glassdoor](https://www.glassdoor.com/Salary/Brex-Salaries-E2040671.htm)

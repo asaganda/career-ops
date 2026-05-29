@@ -1,0 +1,29 @@
+All steps complete. Here's the final output:
+
+```json
+{
+  "status": "completed",
+  "id": "3",
+  "report_num": "045",
+  "company": "Brex",
+  "role": "Senior Software Engineer, Frontend",
+  "score": 3.0,
+  "legitimacy": "Proceed with Caution",
+  "pdf": "output/cv-andrew-saganda-brex-2026-05-06.pdf",
+  "report": "reports/045-brex-2026-05-06.md",
+  "error": null
+}
+```
+
+---
+
+**Report 045 — Brex, Senior Software Engineer, Frontend — 3.0/5**
+
+**TL;DR:** The stack match is excellent (React, TypeScript, ES6+, A/B testing — exact JD language). Comp is top-tier at $192k–$240k, well above your $120k–$160k target. The single blocker: **Seattle hybrid, 3 days/week mandatory (Mon/Wed/Thu)**. Seattle isn't on your relocation list. If you're open to it, this jumps to a 4.2+ — apply immediately. If not, skip.
+
+**Side note:** career-ops update available (v1.3.0 → v1.7.0). Your data (CV, profile, tracker, reports) won't be touched. Want me to update?
+
+Sources:
+- [Brex Senior Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/brex/salaries/software-engineer/levels/senior-software-engineer)
+- [Brex Software Engineer Salaries | Glassdoor](https://www.glassdoor.com/Salary/Brex-Software-Engineer-Salaries-E2040671_D_KO5,22.htm)
+- [Brex cuts 20% of staff | TechCrunch](https://techcrunch.com/2024/01/23/brex-layoffs-fintech/)

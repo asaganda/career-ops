@@ -1,0 +1,47 @@
+Pipeline completo. Output final:
+
+```json
+{
+  "status": "completed",
+  "id": "1",
+  "report_num": "043",
+  "company": "ImmunityBio",
+  "role": "Software Engineer, UI/UX",
+  "score": 1.8,
+  "legitimacy": "Proceed with Caution",
+  "pdf": "output/cv-andrew-saganda-immunitybio-2026-05-06.pdf",
+  "report": "reports/043-immunitybio-2026-05-06.md",
+  "error": null
+}
+```
+
+---
+
+## Resumen del pipeline
+
+**Score: 1.8/5 — SKIP recomendado.**
+
+**Lo que se generó:**
+- `reports/043-immunitybio-2026-05-06.md` — Evaluación completa A-G
+- `output/cv-andrew-saganda-immunitybio-2026-05-06.pdf` — CV ATS-optimizado (2 páginas, 116 KB, format Letter)
+- `batch/tracker-additions/1.tsv` — Línea de tracker lista para `node merge-tracker.mjs`
+
+**Por qué SKIP:**
+
+| Red flag | Detalle |
+|----------|---------|
+| Cultura | 2.7/5 Glassdoor, **solo 22% recomendarían trabajar ahí** |
+| Layoffs | **28 WARN notices** Sep 2022 – Nov 2025 (275 empleados) |
+| Comp | Sin salario disclosed, comp rating 2.9/5 en Glassdoor, biotech discount probable |
+| Domain | ImmunityBio es biotech clínica — el rol es probablemente internal tools/dashboards, no consumer UI |
+| North Star | Andrew apunta a roles de growth/consumer (Oura, Eight Sleep, Strava) — esto va en dirección opuesta |
+
+**Nota técnica:** El JD completo no se pudo recuperar — Workday es JS-rendered y WebFetch retorna vacío. El JD file `/tmp/batch-jd-1.txt` tampoco existía. La evaluación usa el resumen parcial de BuiltIn. Si Andrew quiere reconsiderar, debería revisar el JD completo primero.
+
+**Para mergear el tracker:** `node merge-tracker.mjs`
+
+Sources:
+- [ImmunityBio Reviews | Glassdoor](https://www.glassdoor.com/Reviews/ImmunityBio-Reviews-E3049116.htm)
+- [ImmunityBio WARN layoff history | WARNTracker](https://www.warntracker.com/company/immunitybio)
+- [ImmunityBio Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/immunitybio/salaries/software-engineer)
+- [ImmunityBio Jobs | Built In](https://builtin.com/company/immunitybio/jobs)

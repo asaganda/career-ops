@@ -1,0 +1,32 @@
+Pipeline complete. Here's the final summary:
+
+```json
+{
+  "status": "completed",
+  "id": "6",
+  "report_num": "053",
+  "company": "Brex",
+  "role": "Senior Software Engineer, Full Stack",
+  "score": 2.5,
+  "legitimacy": "High Confidence",
+  "pdf": "output/cv-andrew-saganda-brex-2026-05-06.pdf",
+  "report": "reports/053-brex-2026-05-06.md",
+  "error": null
+}
+```
+
+---
+
+**Summary — Brex Senior SWE, Full Stack | Score: 2.5/5 → SKIP**
+
+The comp is genuinely exceptional ($192k–$240k base, ~$393k total per Levels.fyi), and the NYC hybrid location is a perfect fit. But two hard blockers make this a pre-interview screen-out:
+
+1. **Java/Kotlin backend required** — Andrew's backend is Node.js/Express. No JVM language experience.
+2. **Distributed systems architecture** — The Task Workflows Platform team explicitly needs someone who has designed scalable distributed systems. No production experience here.
+
+The frontend half (React, TypeScript, A/B testing, AI tooling) is a strong match — and Brex's **Frontend Engineer II** roles (reports #7 and #8) were previously discarded only due to Seattle/SF hybrid location. If a NYC-based Frontend Engineer II opens at Brex, that's a much better fit. Run `node merge-tracker.mjs` to merge the tracker addition.
+
+Sources:
+- [Levels.fyi — Brex Senior SWE](https://www.levels.fyi/companies/brex/salaries/software-engineer/levels/senior-software-engineer)
+- [Glassdoor — Brex Salaries](https://www.glassdoor.com/Salary/Brex-Salaries-E2040671.htm)
+- [TechCrunch — Brex Layoffs Jan 2024](https://techcrunch.com/2024/01/23/brex-layoffs-fintech/)

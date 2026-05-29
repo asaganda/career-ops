@@ -1,0 +1,84 @@
+# Career-Ops Profile Configuration
+# Generated for Andrew Saganda — April 2026
+
+candidate:
+  full_name: "Andrew Saganda"
+  email: "asaganda@gmail.com"
+  phone: ""   # Add your phone number
+  location: "Greater New York Area"
+  linkedin: "https://www.linkedin.com/in/asaganda/"
+  portfolio_url: "https://www.asaganda.com"
+  github: "https://github.com/asaganda"
+  twitter: ""   # Add if you have one
+
+target_roles:
+  primary:
+    - "Frontend Developer"
+    - "Front End Engineer"
+    - "UI Engineer"
+  archetypes:
+    - name: "Frontend Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Growth Engineer / Frontend on Growth Team"
+      level: "Mid-Senior"
+      fit: "primary"
+      note: "Boost score — A/B testing + UI optimization is direct experience, not just adjacent"
+    - name: "UI Developer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Full Stack Engineer"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Technical Support Engineer"
+      level: "Mid"
+      fit: "adjacent"
+
+narrative:
+  headline: "Frontend engineer building fast, accessible, user-focused interfaces for 8+ years across e-commerce, healthcare advertising, and my own shipped projects."
+  exit_story: "Most recently a Frontend Engineer at SalonCentric (L'Oreal subsidiary) on a 2-year contract, where I drove a 20% conversion rate increase and 124% user engagement lift. Now building and shipping real projects with AI tooling while targeting my next full-time or contract role."
+  superpowers:
+    - "E-commerce frontend depth (FullBeauty, SalonCentric/L'Oreal)"
+    - "A/B testing and conversion optimization (Optimizely)"
+    - "Third-party API integrations and marketplace onboarding"
+    - "Web accessibility (WCAG AA certified)"
+    - "AI-augmented development (Claude Code, Codex)"
+  proof_points:
+    - name: "TypescriptQuest"
+      url: "https://typescriptquest.com"
+      hero_metric: "Shipped full production app solo — React, Node, PostgreSQL, Stripe, OAuth — using Claude Code as AI coding agent"
+    - name: "CanIParkHere"
+      url: "https://github.com/asaganda/caniparkhere"
+      hero_metric: "React Native MVP using GPT-4.1 vision API to analyze parking signs in real time"
+    - name: "SalonCentric (L'Oreal) — A/B Testing"
+      url: ""
+      hero_metric: "20% conversion rate increase (2023), 124% user engagement lift (2024)"
+    - name: "SalonCentric — API Integrations"
+      url: ""
+      hero_metric: "Onboarded 9+ third-party sellers, contributed to 4% total sales volume increase"
+    - name: "FullBeauty Brands — E-commerce Frontend"
+      url: ""
+      hero_metric: "$2.6M average monthly transactions and 939K unique page views throughout 2021"
+
+compensation:
+  target_range: "$120k-160k"
+  currency: "USD"
+  minimum: "$115k"
+  note: "Not being too picky on comp right now — show roles that seem low if they're otherwise strong"
+  employment_type: "Open to both FTE and contract"
+
+location:
+  country: "United States"
+  city: "North Jersey (Bergen/Essex area)"
+  timezone: "EST"
+  visa_status: "No sponsorship needed"
+  preferences:
+    - "North Jersey (home base, preferred)"
+    - "NYC hybrid — 2-3 days/week in office acceptable"
+    - "NYC onsite — would consider if right opportunity"
+    - "Open to relocation: Austin TX, SF/LA CA — depends on company and growth potential"
+  deal_breakers: "None currently — actively searching, open to good opportunities"
+  search_urgency: "Actively looking — cold applications have felt like a black hole, want pipeline momentum"
+
+cv:
+  output_format: "html"

@@ -1,0 +1,35 @@
+Pipeline completo. Output JSON para el orquestador:
+
+```json
+{
+  "status": "completed",
+  "id": "17",
+  "report_num": "073",
+  "company": "Sekai",
+  "role": "AI Product Engineer",
+  "score": 3.8,
+  "legitimacy": "High Confidence",
+  "pdf": "output/cv-andrew-saganda-sekai-2026-05-20.pdf",
+  "report": "reports/073-sekai-2026-05-20.md",
+  "error": null
+}
+```
+
+---
+
+## Resumen — Sekai · AI Product Engineer · 3.8/5
+
+**Archetype:** AI Forward Deployed Engineer (product-centric consumer social)
+
+**Ventaja clave:** El requisito de ser "AI-native" es el mayor diferenciador de Andrew. Literalmente tiene 3 productos shipped usando Claude Code y Codex — TypescriptQuest (producción real, Stripe + OAuth), Conntext (Chrome Web Store), CanIParkHere (React Native + GPT-4.1 vision). Sekai pide esto explícitamente. La mayoría de candidatos no pueden demostrarlo.
+
+**Gaps principales:**
+- Sin experiencia en startups (mitigado por ownership de 3 proyectos independientes)
+- No tiene Next.js (nice-to-have, React transfiere)
+- Backend es project-based, no historial profesional
+
+**Comp:** No divulgado. Estimado $140k–$180k base + equity Serie A. 3/5.
+
+**Legitimidad:** High Confidence — empresa real, $30M Serie A (a16z, Khosla), app viva en Google Play y App Store, posting activo en Ashby.
+
+**Recomendación:** Aplicar. Score de 3.8 es sólido. El ángulo AI-native es genuino y verificable, lo cual es exactamente lo que Sekai necesita. El pitch de "yo no digo que soy AI-native — lo muestro con productos en producción" es el correcto.

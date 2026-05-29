@@ -1,0 +1,39 @@
+Pipeline completo. Aquí está el resumen JSON final:
+
+```json
+{
+  "status": "completed",
+  "id": "9",
+  "report_num": "058",
+  "company": "Mighty Acorn Digital",
+  "role": "Software Engineer IV - Frontend",
+  "score": 2.0,
+  "legitimacy": "Suspicious",
+  "pdf": "output/cv-candidate-mighty-acorn-digital-2026-05-12.pdf",
+  "report": "reports/058-mighty-acorn-digital-2026-05-12.md",
+  "error": null
+}
+```
+
+---
+
+### Resumen ejecutivo — Oferta 058
+
+**Veredicto: SKIP**
+
+Dos blockers independientes, cualquiera de los dos solo ya descartaría la oferta:
+
+1. **Java es requisito contractual.** La descripción dice explícitamente "Java backend services in a production environment." Andrew tiene Node.js/Express, no Java. No hay experiencia adyacente que lo cubra honestamente.
+
+2. **El deadline venció hace 32 días.** La fecha límite de aplicación era el 10 de abril de 2026. Hoy es 12 de mayo.
+
+**Señal adicional:** El rol es "contingent upon contract award" — Mighty Acorn está licitando un contrato de gobierno y necesita demostrar bench strength. Si no ganan el contrato, el puesto no existe.
+
+**Comp:** $130K–$150K estaría en rango de Andrew, pero sin equity y con ceiling de government contractor.
+
+**Archetype mismatch:** Gobierno/civic tech, no product company. Sin componente AI. Fuera del vertical objetivo de Andrew.
+
+**Archivos generados:**
+- `reports/058-mighty-acorn-digital-2026-05-12.md`
+- `output/cv-candidate-mighty-acorn-digital-2026-05-12.pdf` (2 páginas, 115.3 KB)
+- `batch/tracker-additions/9.tsv`

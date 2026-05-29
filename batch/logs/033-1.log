@@ -1,0 +1,30 @@
+Pipeline complete. Here's the summary JSON:
+
+```json
+{
+  "status": "completed",
+  "id": "1",
+  "report_num": "033",
+  "company": "Vercel",
+  "role": "Senior Software Engineer, Trust & Safety",
+  "score": 1.8,
+  "legitimacy": "High Confidence",
+  "pdf": "output/cv-andrew-saganda-vercel-trust-safety-2026-05-01.pdf",
+  "report": "reports/033-vercel-trust-safety-2026-05-01.md",
+  "error": null
+}
+```
+
+---
+
+**Score: 1.8/5 — SKIP.**
+
+This is a Trust & Safety / security engineering role, not a frontend role. The hard blocker is categorical: the JD requires 5+ years of abuse prevention or security engineering experience, and there's no adjacent experience in your CV to draw on. The only real overlap is TypeScript/JS and light LLM usage — both real, both insufficient.
+
+The comp is exceptional ($196k–$294k SF rate) — which just makes it more frustrating. But the same Vercel comp band applies to the **Growth role (report 003, score 4.2/5)**, which is a strong fit. If Vercel is a target, that's where to focus.
+
+> **Also:** career-ops update available (v1.3.0 → v1.6.0). Changes include Gemini CLI native integration and other features. Your CV, profile, tracker, and reports will not be touched. Want me to update?
+
+Sources:
+- [Vercel Software Engineer Salary | Levels.fyi](https://www.levels.fyi/companies/vercel/salaries/software-engineer)
+- [Vercel Salaries | Glassdoor](https://www.glassdoor.com/Salary/Vercel-Salaries-E6510369.htm)

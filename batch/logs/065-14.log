@@ -1,0 +1,32 @@
+All steps complete. Final JSON summary:
+
+```json
+{
+  "status": "completed",
+  "id": "14",
+  "report_num": "065",
+  "company": "NeuraFlash",
+  "role": "Salesforce Front-End Developer",
+  "score": 2.0,
+  "legitimacy": "Proceed with Caution",
+  "pdf": "output/cv-candidate-neuraflash-2026-05-12.pdf",
+  "report": "reports/065-neuraflash-2026-05-12.md",
+  "error": null
+}
+```
+
+---
+
+**065 — NeuraFlash / Salesforce Front-End Developer — 2.0/5 — SKIP**
+
+The job title says "Front-End Developer" but the role is a Salesforce platform engineer requiring LWC, Apex, VisualForce, Experience Cloud, and Salesforce DX — none of which are in Andrew's background. The critical distinction: Andrew's SFCC experience is Salesforce Commerce Cloud (e-commerce storefront), a completely different product from the Salesforce CRM platform this role is built on. No reframing bridges that gap before a technical screen.
+
+Additional flags: NeuraFlash was acquired by Accenture in August 2025 (post-acquisition instability), consulting culture with 25% travel requirement, and a very wide NY/NJ comp range ($87k–$266k) where non-certified Salesforce devs would likely land well below Andrew's $120k floor.
+
+PDF generated at `output/cv-candidate-neuraflash-2026-05-12.pdf` (2 pages). Tracker line written to `batch/tracker-additions/14.tsv`. Run `node merge-tracker.mjs` when the batch is complete.
+
+Sources:
+- [How Much Does NeuraFlash Pay in 2026? (Glassdoor)](https://www.glassdoor.com/Salary/NeuraFlash-Salaries-E1387240.htm)
+- [NeuraFlash Salaries 2026 (6figr)](https://6figr.com/us/salary/neuraflash)
+- [Accenture to Acquire NeuraFlash](https://newsroom.accenture.com/news/2025/accenture-to-acquire-neuraflash-to-further-enhance-its-salesforce-and-ai-capabilities)
+- [Accenture job cuts hit 22,000 in 2025](https://insiderph.com/accenture-job-cuts-hit-22000-in-2025-as-firm-targets-1b-in-savings-rebound-seen-in-2026)
