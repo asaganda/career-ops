@@ -63,7 +63,7 @@ Examples of legitimate reformulation:
 
 ## Template HTML
 
-Use the template in `cv-template.html`. Replace the `{{...}}` placeholders with personalized content:
+Use the template in `cv-template-custom.html` (project root). Replace the `{{...}}` placeholders with personalized content:
 
 | Placeholder | Content |
 |-------------|-----------|
