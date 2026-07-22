@@ -3,19 +3,9 @@ import { readFile, writeFile } from 'fs/promises';
 const patches = [
   {
     file: 'generate-pdf.mjs',
-    description: 'PDF margins 0.6in → 0.2in',
-    find: `      margin: {
-        top: '0.6in',
-        right: '0.6in',
-        bottom: '0.6in',
-        left: '0.6in',
-      },`,
-    replace: `      margin: {
-        top: '0.2in',
-        right: '0.2in',
-        bottom: '0.2in',
-        left: '0.2in',
-      },`,
+    description: 'PDF margins 0.6in → 0.2in (CSS @page constant)',
+    find: `const PDF_PAGE_MARGIN = '0.6in';`,
+    replace: `const PDF_PAGE_MARGIN = '0.2in';`,
   },
   {
     file: 'modes/_shared.md',

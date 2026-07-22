@@ -34,7 +34,7 @@ import { fileURLToPath, pathToFileURL } from 'url';
 import { randomUUID } from 'node:crypto';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const PDF_PAGE_MARGIN = '0.6in';
+const PDF_PAGE_MARGIN = '0.2in';
 
 // Ensure output directory exists (fresh setup)
 mkdirSync(resolve(__dirname, 'output'), { recursive: true });
