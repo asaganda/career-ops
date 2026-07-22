@@ -11,8 +11,8 @@
  */
 
 import { chromium } from 'playwright';
-import { resolve, dirname } from 'path';
-import { readFile } from 'fs/promises';
+import { resolve, dirname, join } from 'path';
+import { readFile, writeFile as writeFileFs, unlink } from 'fs/promises';
 import { mkdirSync } from 'fs';
 import { fileURLToPath } from 'url';
 
@@ -133,15 +133,16 @@ async function generatePDF() {
     console.log(`🧹 ATS normalization: ${totalReplacements} replacements (${breakdown})`);
   }
 
+  // Write processed HTML to a temp file inside career-ops so ./fonts/ resolves correctly.
+  // page.setContent() blocks file:// font loading; page.goto('file://...') does not.
+  const tmpHtml = join(__dirname, `.cv-tmp-${Date.now()}.html`);
+  await writeFileFs(tmpHtml, html, 'utf-8');
+
   const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage();
 
-    // Set content with file base URL for any relative resources
-    await page.setContent(html, {
-      waitUntil: 'networkidle',
-      baseURL: `file://${dirname(inputPath)}/`,
-    });
+    await page.goto(`file://${tmpHtml}`, { waitUntil: 'networkidle' });
 
     // Wait for fonts to load
     await page.evaluate(() => document.fonts.ready);
@@ -162,6 +163,7 @@ async function generatePDF() {
     // Write PDF
     const { writeFile } = await import('fs/promises');
     await writeFile(outputPath, pdfBuffer);
+    await unlink(tmpHtml).catch(() => {});
 
     // Count pages (approximate from PDF structure)
     const pdfString = pdfBuffer.toString('latin1');
@@ -174,6 +176,7 @@ async function generatePDF() {
     return { outputPath, pageCount, size: pdfBuffer.length };
   } finally {
     await browser.close();
+    await unlink(tmpHtml).catch(() => {});
   }
 }
 
