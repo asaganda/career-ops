@@ -63,6 +63,19 @@
     color: #333;
   }
 
+  /* Location is always the last child — pull it above the links on its own line */
+  .contact-row > span:last-child {
+    order: -1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+
+  /* Hide the separator immediately before the location span */
+  .contact-row > span.separator:nth-last-child(2) {
+    display: none;
+  }
+
   .contact-row a { color: #333; text-decoration: underline; }
   .contact-row .separator { color: #333; }
   .contact-row .email { text-decoration: underline; }
