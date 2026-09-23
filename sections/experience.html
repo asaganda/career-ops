@@ -1,0 +1,25 @@
+<!--
+  experience.html — project-root section partial for Work Experience (#2183).
+  Layout: Role — Company (bold, one line) | Date
+  Matches the reference layout from cv-andrew-saganda-amplify-2026-09-16.pdf.
+
+  Field placeholders:
+    ROLE             — job title (rendered before company)
+    COMPANY          — employer name
+    PERIOD           — date range
+    BULLETS          — rendered <li> tags
+    LOCATION_BLOCK   — conditional: .job-location div when location present; omitted when absent
+-->
+<!--ENTRY-->
+<div class="job">
+  <div class="job-header">
+    <span class="job-role-company">{{ROLE}} — {{COMPANY}}</span>
+    <span class="job-period">{{PERIOD}}</span>
+  </div>
+  {{LOCATION_BLOCK}}
+  <ul>
+    {{BULLETS}}
+  </ul>
+</div>
+<!--LOCATION_BLOCK--><div class="job-location">{{LOCATION}}</div><!--/LOCATION_BLOCK-->
+<!--/ENTRY-->
